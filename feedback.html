@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel="stylesheet" href="CSS/feedback.css">
+
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form action="mailto:u7172253@anu.edu.au">
+        <label>Your name:</label><br>
+        <input type="text" placeholder="your name is ..." id="namebox"> <br>
+
+        <label>Your email address:</label><br>
+        <input type="text" placeholder="your email is..." id="emailbox"> <br>
+
+        <label>What is your gender?</label><br>
+        <input type="radio" id="male" name="radiogroup1">Male
+        <input type="radio" id="female" name="radiogroup1">Female
+        <input type="radio" id="other" name="radiogroup1">Other
+        <input type="radio" id="prefernottosay" name="radiogroup1">I prefre not to say<br><br>
+        <!-- <label>What is your gender?</label>
+    <br/>
+    <input id="Radio1" name="RadioGroup1" type="radio" /><label for="Radio1">Male</label>
+    <input id="Radio2" name="RadioGroup1" type="radio" /><label for="Radio2">Female</label>
+    <input id="Radio3" name="RadioGroup1" type="radio" /><label for="Radio3">Other</label>
+    <input id="Radio4" name="RadioGroup1" type="radio" /><label for="Radio4">I prefer not to say</label><br /> -->
+
+        <label>Please fill in your feedback</label><br>
+        <textarea rows="10" cols="70" placeholder="please type your feedback here..." id="feedbackbox"></textarea>
+
+        <br>
+
+        <label>Submit:</label>
+        <input type="submit" value="Send it" id="submitbutton"> or
+        <input type="reset" value="Clear" id="clearbutton">
+
+    </form>
+    
+</body>
+</html>
